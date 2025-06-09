@@ -1,13 +1,35 @@
-/* Estilos da seção Home */
-
 .home {
-  /* ...estilos gerais da home... */
-}
+  border: 1px solid red;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-.home span {
-  /* ...destaque WSJ12... */
-}
+  span {
+    border: 1px solid red;
+    font-size: 250px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    opacity: 0.5;
+    text-stroke: 1px #000;
+    background: none;
+    letter-spacing: 0.02em;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
 
-#home-titles {
-  /* ...título animado ou principal... */
+  h1 {
+    font-family: var(--font-primary);
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #000;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+  }
 }

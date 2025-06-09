@@ -1,23 +1,57 @@
-/* Estilos do cabeçalho (header) */
-
 header {
-  /* ...estilos gerais do header... */
-}
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  background: transparent;
+  max-width: 1280px;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  padding: 0 2.5%;
 
-header picture img {
-  /* ...logo... */
-}
+  picture img {
+    border: 1px solid red;
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+  }
 
-nav ol {
-  /* ...menu de navegação... */
-}
+  nav {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    height: 100%;
+    display: flex;
+    align-items: center;
 
-nav ol li a {
-  /* ...links do menu... */
-}
+    ol {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: max-content;
+      border: 1px solid red;
+      height: 100%;
 
-aside a {
-  /* ...contato/telefone... */
+      li a {
+        border: 1px solid red;
+        padding: 10px;
+      }
+    }
+  }
+
+  aside {
+    a {
+      border: 1px solid red;
+      padding: 10px 10px;
+      border-radius: 10px;
+    }
+  }
 }
 
 /* Adicione responsividade e detalhes conforme necessário */
