@@ -1,0 +1,32 @@
+/* Paleta de Cores */
+:root {
+  --color-gold: #C9B037;
+  --color-green: #1B5E20;
+  --color-white: #FFFFFF;
+  --color-red: #B71C1C;
+
+  /* Tons auxiliares para sofisticação */
+  --color-gold-light: #F6E27A;
+  --color-gold-dark: #8C7A2A;
+  --color-green-light: #43A047; 
+  --color-green-dark: #0D3B15;
+  --color-red-light: #E57373;
+  --color-red-dark: #7F0000;
+  --color-gray-bg: #F5F5F5;
+  --color-gray-text: #333333;
+
+  /* Fontes */
+  --font-primary: 'Montserrat', 'Segoe UI', 'Arial', sans-serif;
+  --font-secondary: 'Playfair Display', 'Georgia', serif;
+
+  /* Padrões de espaçamento */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+
+  /* Bordas e radius */
+  --border-radius: 8px;
+  --border-gold: 2px solid var(--color-gold);
+}
