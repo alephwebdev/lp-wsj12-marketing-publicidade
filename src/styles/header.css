@@ -1,0 +1,23 @@
+/* Estilos do cabeçalho (header) */
+
+header {
+  /* ...estilos gerais do header... */
+}
+
+header picture img {
+  /* ...logo... */
+}
+
+nav ol {
+  /* ...menu de navegação... */
+}
+
+nav ol li a {
+  /* ...links do menu... */
+}
+
+aside a {
+  /* ...contato/telefone... */
+}
+
+/* Adicione responsividade e detalhes conforme necessário */
